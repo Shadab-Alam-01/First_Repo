@@ -2,6 +2,22 @@ import java.util.Scanner;
 
 public class Main{
 
+
+  static int primeOrNot(int a){
+      int flag = 0;
+      if(a > 3){
+        for(int i=2; i<a; i++){
+          if(a%i == 0){
+            flag = 1;
+          }
+        }
+      }
+      return flag;
+    }
+    
+
+
+  
   
   static void hollowRectangle(){
       /* 
