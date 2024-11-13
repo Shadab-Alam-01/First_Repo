@@ -174,6 +174,14 @@ public class Main{
       reversePiramid();
       // System.out.println();
       numberPiramid();
+      int a, b ;
+      a = 22;
+      b = 4;
+      float c ;
+      c = a/b;
+      System.out.println(c);
+      c = (float)a/b;
+      System.out.println(c);
       
       
   }
